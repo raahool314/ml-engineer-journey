@@ -1,5 +1,5 @@
 name = "Rahul"
-age = "36"
+age = 36
 city = "Pune"
 role = "ML Engineer (in training)"
 fun_fact = "I like Coffee"
