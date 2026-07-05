@@ -17,3 +17,8 @@ print(f"Current age: {2026- int(birth_year)}")
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 print(f"sum: {num1+num2}, difference: {abs(num1-num2)}, product: {num1 * num2}, larger_number: {num1 if num1 > num2 else num2}")
+
+full_name = input("Enter the full name: ")
+first_name, last_name = full_name.split()
+city = input("Enter the name of a city: ")
+print(f"Hello, {first_name.title()} ! Your profile is {full_name.upper()} from {city.upper()}")
