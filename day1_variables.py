@@ -5,7 +5,7 @@ age = 36
 city = 'Pune'
 like_coffee = True
 
-print(f"Hi, my name is {name}, my age is str({age}). I live in {city} and it's {like_coffee} that I like coffee.")
+print(f"Hi, my name is {name}, my age is {age}. I live in {city} and it's {like_coffee} that I like coffee.")
 
 # Claude: Problem 2 - Create a = 17 and b = 5. Print the result of +, -, *, /, //, and %. Add a comment on each line explaining what // and % actually do differently from regular division.
 
@@ -15,7 +15,7 @@ print(f'a + b = {a+b}')
 print(f'a - b = {a-b}')
 print(f'a * b = {a*b}')
 print(f'a / b = {a/b}')
-print(f'a // c = {a//b}')
+print(f'a // b = {a//b}')
 print(f'a % b = {a%b}')
 
 # Claude - Problem 3 — predict before you run
@@ -56,5 +56,5 @@ Without retyping those words, create a variable that holds "MACHINE LEARNING" an
 """
 first = "machine"
 second = "learning"
-print((f"{first} {second}").upper())
+print(f"{first} {second}".upper())
 
